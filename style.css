@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+div {
+    padding: 20px 10%;
+    height: 15vh;
+}
+div ul {
+    display: flex;
+    margin: 15px ;
+    gap: 30px;
+    list-style: none;
+}
+div button {
+    background-color: violet;
+    border-radius: 10%;
+    align-items: right;
+    border: none;
+    font-weight: 300;
+    padding: 0 10px;
+}
+div button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+}
+main {
+    display: flex;
+    margin: 25px;
+}
+.leftmain {
+    margin: 0;
+    padding: 10%;
+}
+.leftmain h1 {
+    font-size: 60px ;
+    padding: 10px;
+}
+.leftmain span {
+    color: blueviolet;
+}
+.leftmain button {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.leftmain p {
+    margin: 10px;
+    padding: 10px;
+}
+.rightmain img {
+    height: 80vh;
+    width: 50vw;;
+}
